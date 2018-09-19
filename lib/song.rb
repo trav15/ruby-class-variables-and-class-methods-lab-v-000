@@ -14,7 +14,6 @@ class Song
   end
   
   def self.genres
-    @@genres.each do |
-    @@genres
+    @@genres.uniq
   end
 end
